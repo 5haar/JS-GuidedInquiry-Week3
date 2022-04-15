@@ -1,0 +1,49 @@
+/*
+let num1 = window.prompt("Enter your desired networth.");
+let length = window.prompt("How long do you want to take to get that networth?");
+let num2 = window.prompt("What is your current networth?");
+
+let yearlyGrowth = ((num1 - num2)/length);
+let yearlyPercentGrowth = ((yearlyGrowth / num2) * 100);
+
+console.log(`You need to make $${yearlyGrowth} a year or ${yearlyPercentGrowth}% growth a year to reach $${num1} in ${length} years.`);
+*/
+
+
+
+
+
+
+
+
+
+
+let input = window.prompt("Enter a number between 1 and 12");
+
+if (input == "1") {
+    console.log("January");
+} else if (input == "2") {
+    console.log("February");
+}  else if (input == "3") {
+    console.log("March");
+}  else if (input == "4") {
+    console.log("April");
+}  else if (input == "5") {
+    console.log("May");
+}  else if (input == "6") {
+    console.log("June");
+}  else if (input == "7") {
+    console.log("July");
+}  else if (input == "8") {
+    console.log("August");
+}  else if (input == "9") {
+    console.log("September");
+}  else if (input == "10") {
+    console.log("October");
+}  else if (input == "11") {
+    console.log("November");
+}  else if (input == "12") {
+    console.log("December");
+} else {
+    console.log("You entered an invalid number");
+}
