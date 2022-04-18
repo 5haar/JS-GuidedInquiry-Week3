@@ -23,10 +23,10 @@ function divide(input1, input2) {
     return total;
 }
 
-alert(add(10, 10));
+console.log(add(10, 10));
 
-alert(subtract(10, 5));
+console.log(subtract(10, 5));
 
-alert(multiply(3, 7));
+console.log(multiply(9, 7));
 
-alert(divide(16, 4));
+console.log(divide(16, 4));
